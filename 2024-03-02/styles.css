@@ -16,7 +16,7 @@ body {
     width: 32.5rem;
     border-radius: 8px;
     background-color: #fff;
-    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.05);
     position: relative;
 }
 
