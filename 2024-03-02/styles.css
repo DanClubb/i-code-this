@@ -64,6 +64,11 @@ p {
     z-index: 10;
 }
 
+.option:hover {
+    background-color: #e4e9fa;
+    transition: 300ms;
+}
+
 .option-clicked::before {
     content: "";
     position: absolute;

@@ -5,6 +5,6 @@ options.forEach((option) => {
         option.classList.add("option-clicked");
         setTimeout(() => {
             option.classList.remove("option-clicked");
-        }, 605);
+        }, 600);
     });
 });
