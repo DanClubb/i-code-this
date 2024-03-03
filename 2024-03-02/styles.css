@@ -16,6 +16,7 @@ body {
     width: 32.5rem;
     border-radius: 8px;
     background-color: #fff;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.15);
     position: relative;
 }
 
@@ -52,10 +53,11 @@ p {
     justify-content: center;
     gap: 1rem;
     align-items: center;
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 5px;
     border: 14px solid #e4e9fa;
+    cursor: pointer;
 }
 
 .icon {
