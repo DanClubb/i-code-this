@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>ICodeThis 2024-03-03</title>
+    </head>
+    <body>
+        <form onsubmit="event.preventDefault()">
+            <h1>Give feedback</h1>
+            <p>Your thoughts are valuable in helping improve our products.</p>
+            <textarea placeholder="Let us know what's on your mind"></textarea>
+            <div class="check">
+                <input type="checkbox" />
+                <label for=""
+                    >I may be contacted about this feedback see our
+                    <span>privacy policy</span></label
+                >
+            </div>
+            <div class="check">
+                <input type="checkbox" />
+                <label for=""
+                    >I'd like to help improve the products by joining the
+                    <span>Research Group</span></label
+                >
+            </div>
+            <button class="notsent">
+                Send feedback
+                <img src="./assets/send.svg" class="send-icon" alt="send" />
+            </button>
+        </form>
+        <script src="./app.js"></script>
+    </body>
+</html>
