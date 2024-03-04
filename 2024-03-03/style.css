@@ -51,9 +51,8 @@ label {
     font-size: 0.9rem;
 }
 
-span {
-    text-decoration: underline;
-    cursor: pointer;
+a {
+    color: black;
 }
 
 button {
