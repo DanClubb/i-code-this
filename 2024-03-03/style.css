@@ -72,12 +72,13 @@ button {
     position: absolute;
     left: -1rem;
     opacity: 0;
+    /* transition: transform 300ms, opacity 300ms; */
 }
 
 .notsent:hover .send-icon {
     transform: translateX(2rem);
-    transition: 300ms;
     opacity: 1;
+    transition: transform 300ms, opacity 300ms;
 }
 
 button:active .send-icon {
