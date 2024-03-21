@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #f8f9fe;
+}
+
+.container {
+    display: flex;
+    border: 1px solid #d2d0e5;
+    box-shadow: 5px 5px #bfc7e5;
+}
+
+.card {
+    width: 16rem;
+    height: 18rem;
+}
+
+.card:not(:last-child) {
+    border-right: 1px solid #d2d0e5;
+}
+
+.radio-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-btns > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.radio-btns > div input {
+    cursor: pointer;
+}
